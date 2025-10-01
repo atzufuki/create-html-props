@@ -1,14 +1,14 @@
 {
-	"name": "create-html-props",
-	"version": "0.1.0",
-	"description": "Scaffolding CLI for html-props projects.",
-	"repository": "https://github.com/atzufuki/create-html-props",
-	"exports": "./mod.ts",
-	"bin": {
-		"create-html-props": "./mod.ts"
-	},
-	"author": "Atte Silén <atzusilen@gmail.com>",
-	"license": "MIT",
+  "name": "create-html-props",
+  "version": "0.1.0",
+  "description": "Scaffolding CLI for html-props projects.",
+  "repository": "https://github.com/atzufuki/create-html-props",
+  "exports": "./mod.ts",
+  "bin": {
+    "create-html-props": "./mod.ts"
+  },
+  "author": "Atte Silén <atzusilen@gmail.com>",
+  "license": "MIT",
   "compilerOptions": {
     "lib": [
       "deno.ns",
