@@ -26,8 +26,8 @@ export default class App extends HTMLProps(HTMLElement) {
           href: "https://vite.dev",
           target: "_blank",
           content: new html.Image({
-            src:  '/vite.svg',
-            alt: "Vite logo",
+            src:  '/html-props.png',
+            alt: "HTML Props logo",
             className: "logo",
           }),
         }),
@@ -35,12 +35,12 @@ export default class App extends HTMLProps(HTMLElement) {
           href: "https://react.dev",
           target: "_blank",
           content: new html.Image({
-            src: '/react.svg',
-            alt: "React logo",
-            className: "logo react",
+            src: '/typescript.svg',
+            alt: "TypeScript logo",
+            className: "logo typescript",
           }),
         }),
-        new html.Heading1({ content: "Vite + React" }),
+        new html.Heading1({ textContent: "HTML Props + Typescript" }),
         new html.Div({
           className: "card",
           content: [

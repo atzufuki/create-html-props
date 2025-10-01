@@ -12,7 +12,7 @@
 ### With Deno (recommended)
 
 ```
-deno run -A jsr:@your-org/create-html-props <project-name>
+deno run -A jsr:@html-props/create-html-props <project-name>
 ```
 
 Or, if installed globally:
@@ -22,7 +22,7 @@ create-html-props <project-name>
 ```
 
 <!--
-### With npm (if published to npm)
+### With npm
 
 ```
 npx create-html-props <project-name>
@@ -32,7 +32,7 @@ npx create-html-props <project-name>
 ## Example
 
 ```
-deno run -A jsr:@your-org/create-html-props my-app
+deno run -A jsr:@html-props/create-html-props my-app
 cd my-app
 # Start hacking!
 ```
