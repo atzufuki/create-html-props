@@ -1,0 +1,14 @@
+{
+	"name": "create-html-props",
+	"version": "1.0.0",
+	"description": "Scaffolding CLI for html-props projects.",
+	"repository": "https://github.com/atzufuki/create-html-props",
+	"exports": {
+		"cli": "./src/cli.ts"
+	},
+	"bin": {
+		"create-html-props": "./src/cli.ts"
+	},
+	"author": "Atte Silén <atzusilen@gmail.com>",
+	"license": "MIT"
+}
