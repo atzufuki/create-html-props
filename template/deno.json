@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "serve": "deno run --allow-net --allow-read --allow-sys jsr:@std/http/file-server public/",
+    "serve": "deno run --allow-net --allow-read --allow-sys @std/http/file-server public/",
     "bundle": "deno bundle --watch --platform browser --output public/bundle.js src/main.ts",
     "dev": {
       "dependencies": ["bundle", "serve"]

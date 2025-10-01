@@ -1,7 +1,6 @@
-#!/usr/bin/env -S deno run -A
-// create-html-props CLI: Scaffolds a new html-props project
-import { copy } from "@std/fs";
-import { join } from "@std/path";
+// deno-lint-ignore-file no-import-prefix
+import { copy } from "jsr:@std/fs@^1.0.19";
+import { join } from "jsr:@std/path@^1.1.2";
 
 function printHelp() {
   console.log(
