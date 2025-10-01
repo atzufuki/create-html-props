@@ -24,6 +24,7 @@ if (import.meta.main) {
     console.log("\nNext steps:");
     console.log(`  cd ${projectName}`);
     console.log(`  deno task dev`);
+    console.log(`  Open http://localhost:8000/index.html in your browser`);
   } catch (err) {
     if (err instanceof Deno.errors.AlreadyExists) {
       console.error(`Error: Directory '${projectName}' already exists.`);
